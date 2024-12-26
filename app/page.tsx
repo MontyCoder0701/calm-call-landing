@@ -70,17 +70,17 @@ export default function Home() {
           <h2 className="text-3xl font-extrabold text-indigo-600">About</h2>
           <p className="mt-4 text-gray-700 leading-relaxed">
             통화 준비가 부족하거나 예상치 못한 상황에 대처하기 어려워 고민했던 적이 있으신가요?
-            Calm Call은 이러한 걱정을 덜어드리기 위해, 전화 통화 전에 미리 대본을 작성해주고,
+            Calm Call 앱은 이러한 걱정을 덜어드리기 위해, 전화 통화 전에 미리 대본을 작성해주고,
             실시간 통화 상황별로 가장 적합한 맞춤형 답변 스크립트를 빠르게 제안합니다.
           </p>
         </section>
       </main>
 
       <footer id="cta" className="row-start-3 py-6 text-center">
-        <h2 className="text-3xl font-extrabold text-indigo-600">Download</h2>
+        <h2 className="text-3xl font-extrabold text-indigo-600">Download App</h2>
 
         <p className="mt-4 text-gray-600">
-          현재 Calm Call은 개발 중에 있습니다. 출시되기 전 먼저 소식을 받아보세요.
+          현재 Calm Call앱은 개발 중에 있습니다. 출시되기 전 먼저 소식을 받아보세요.
           <br />
           이메일은 미리 출시 알람 외에 절대 사용되지 않습니다.
         </p>
@@ -93,6 +93,7 @@ export default function Home() {
           <input
             ref={inputRef}
             type="email"
+            name="email"
             placeholder="이메일 주소를 입력하세요"
             className={`px-4 py-3 rounded-md border shadow-sm focus:ring-2 focus:ring-indigo-500 w-full sm:w-auto ${isHighlighted ? "ring-2 ring-indigo-500" : ""}`}
             required
